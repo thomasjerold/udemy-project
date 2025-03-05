@@ -64,6 +64,7 @@ body{
 
     position: relative;
     cursor: pointer;
+    
 }
 
 .My-Learning__popup{
@@ -181,7 +182,9 @@ body{
       
 .Course-card{
 
-    width:300px;
+    flex-grow:1px;
+    flex-basis:20%;
+    margin: 5px;
 }
 .Course-card img{
     width: 100%;
@@ -247,4 +250,30 @@ body{
     display: flex;
     justify-content: space-between;
 }
-      
+
+/*media Queries*/
+
+@media screen and (max-width:800px) {
+    body{
+        font-size:10px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+   .Course-card{
+
+      flex-basis:40%;
+
+   }
+
+   .Categories{
+    display: none;
+   }
+   .Navbar__s3__icons{
+
+    display: none;
+   }
+    
+}
+
