@@ -264,7 +264,9 @@ body{
    .Course-card{
 
       flex-basis:40%;
-
+   }
+   .Sale-image__offer{
+    display: none;
    }
 
    .Categories{
